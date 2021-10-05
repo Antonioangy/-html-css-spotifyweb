@@ -28,6 +28,10 @@ aside{
     padding-left: 15px;
     margin: 0 20px;
 }
+.spotify-lg {
+    width: 150px;
+    margin-top: 20px;
+}
 .spotify-xs {
     display: none;
     size: 10%;
@@ -68,7 +72,7 @@ ul li{
 }
 
 hr {
-    margin: 0px;
+    margin: 15px;
 }
 
 /* fine parte navigazione */

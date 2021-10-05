@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #principale{
@@ -13,13 +14,55 @@
     display: table;
     clear: both;
 }
+/* inizio parte navigazione */
 aside{
     float: left;
     width: 250px;
     height: 100%;
-    background-color: blue;
-
+    background-color: black;
 }
+#container-top {
+    display: flex;
+    flex-direction: column;
+    color: lightgrey;
+    padding-left: 15px;
+    margin: 0 20px;
+}
+.spotify-xs {
+    display: none;
+    size: 10%;
+}
+
+.container-mid {
+    color: lightgrey;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin: 0 20px;
+}
+
+.container-bot {
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
+ul li{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.crea{
+    vertical-align: center;
+}
+
+hr {
+    margin: 0px;
+}
+
+/* fine parte navigazione */
+
+
+
+
 main{
     float: left;
     width: calc(100% - 250px);

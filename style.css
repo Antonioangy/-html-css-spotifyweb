@@ -53,7 +53,7 @@ aside{
 }
 
 .top{
-    height: calc(100vh - 300px)
+    height: calc(100vh - 200px)
 }
 
 
@@ -69,7 +69,8 @@ ul li{
 }
 
 .crea{
-    vertical-align: center;
+    display: flex;
+    align-items: center;
 }
 
 hr {

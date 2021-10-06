@@ -31,6 +31,7 @@ aside{
 .spotify-lg {
     width: 150px;
     margin-top: 20px;
+    height: 50px;
 }
 .spotify-xs {
     display: none;
@@ -78,7 +79,7 @@ hr {
 /* fine parte navigazione */
 
 
-
+/* INIZIO PARTE PRINCIPALE top  */
 
 main{
     float: left;
@@ -87,8 +88,74 @@ main{
     background-color: coral;
 }
 
+.container-top {
+    height: 70px;
+    max-width: 975px;
+    margin: 0 auto;
+}
+
+.upgrade-container{
+    width: 100%;
+    height: 80px;
+}
+
+.top-main-container {
+    height: 80px;
+    max-width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: rgba(207, 183, 183, 0.664) ;
+}
+
+.top-main-container h5 {
+    cursor: pointer;
+}
+
+.top-main-container h5:hover {
+    color: white;
+}
+
+/* manca linea verde sotto */
+
+/* manca linea verde sotto */
+
+/* inizio parte RECENTLY PLAYED */
+
+#center-container{
+    width: 100%;
+}
+h1{
+    color: white;
+    margin: 55px;
+}
+.main-container-flex {
+    max-width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 0px;
+    
+}
+
+
+.quadro{
+    width: 200px;
+}
+
+
+
+img{
+    height: 200px;
+}
+
+
+
+
+
+/* inizio footer */
 footer{
     height: 100px;
     width: 100%;
     background-color: yellow;
 }
+

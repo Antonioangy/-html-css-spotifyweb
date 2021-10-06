@@ -59,8 +59,6 @@ aside{
 
 span{
     margin-left: 10px;
-
-    
 }
 
 ul li{
@@ -140,6 +138,8 @@ main{
 
 #center-container{
     width: 100%;
+    
+    
 }
 h1{
     color: white;
@@ -150,7 +150,7 @@ h1{
     display: flex;
     justify-content:space-around;
     margin: 20px 0px;
-    
+    overflow: auto;
 }
 
 
@@ -172,6 +172,77 @@ img{
 footer{
     height: 100px;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(85, 24, 134);
 }
 
+.container-footer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#footer-left {
+    width: 20%;
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#songselected{
+    height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footer-left-text, .footer-left-icons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.footer-center {
+    float: left;
+    width: 45%;
+    padding: 18px;
+}
+.commands-player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#range-player{
+    width: 600px;
+    margin: 0 30px;
+}
+
+.player{
+    color: white;
+}
+
+#footer-right {
+    float: left;
+    width: 15%;
+    padding: 18px;
+    color: lightgrey;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    cursor: pointer;
+    color: white;
+}
+
+.range {
+    display: flex;
+    width: 300px;
+    height: 40%;
+}

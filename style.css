@@ -283,21 +283,3 @@ footer{
 
 
 /* modalita' schermo */
-@media all and (max-width: 552px) {
-    aside .element span, 
-    .side-playlist, 
-    .playlist-name,
-    .bottom-column span,
-    .border,
-    .logo {
-        display:none;
-    }
-
-    aside {
-        width: 52px;
-    }
-
-    main {
-        width: calc(100% - 52px);
-    }
- 

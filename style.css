@@ -138,6 +138,7 @@ main{
 
 #center-container{
     width: 100%;
+    overflow: scroll;
 }
 h1{
     color: white;

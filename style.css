@@ -89,7 +89,7 @@ main{
 
 .container-top {
     height: 70px;
-    max-width: 975px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -138,12 +138,16 @@ main{
 
 #center-container{
     width: 100%;
-    
-    
 }
 h1{
     color: white;
     margin: 55px;
+}
+h4{
+    color: white;
+}
+h5{
+    color: lightgrey;
 }
 .main-container-flex {
     max-width: 100%;
@@ -153,20 +157,13 @@ h1{
     overflow: auto;
 }
 
-
 .quadro{
     width: 200px;
 }
 
-
-
 img{
     height: 200px;
 }
-
-
-
-
 
 /* inizio footer */
 footer{
@@ -183,6 +180,7 @@ footer{
     align-items: center;
     
 }
+/* inizio footer sinistro */
 #footer-left {
     width: 20%;
     margin: 20px 20px;
@@ -200,6 +198,8 @@ footer{
     align-items: center;
     cursor: pointer;
 }
+
+/* inizio footer centrale */
 .footer-center {
     float: left;
     width: 45%;
@@ -223,6 +223,8 @@ footer{
 .player{
     color: white;
 }
+
+/* inizio footer destro */
 
 #footer-right {
     float: left;

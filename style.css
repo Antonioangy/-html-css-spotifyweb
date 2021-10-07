@@ -118,8 +118,9 @@ main{
 }
 .quadro.img{
     position: relative;
-    width: 400px;
+    width: 200px;
     height: 200px;
+    
 }
 .quadro-img i {
     display: none;
@@ -181,7 +182,7 @@ h5{
 }
 
 .quadro{
-    width: 200px;
+    width: calc(100% / 5);
 }
 
 img{

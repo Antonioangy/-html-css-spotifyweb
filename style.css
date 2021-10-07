@@ -241,6 +241,7 @@ footer{
 /* inizio footer destro */
 
 #footer-right {
+    display: flex;
     float: left;
     width: 15%;
     padding: 18px;

@@ -85,6 +85,7 @@ main{
     width: calc(100% - 250px);
     height: 100%;
     background-color: coral;
+    overflow: scroll;
 }
 
 .container-top {
@@ -138,7 +139,6 @@ main{
 
 #center-container{
     width: 100%;
-    overflow: scroll;
 }
 h1{
     color: white;
@@ -150,12 +150,14 @@ h4{
 h5{
     color: lightgrey;
 }
+.spostato{
+    margin: 55px;
+}
 .main-container-flex {
     max-width: 100%;
     display: flex;
     justify-content:space-around;
     margin: 20px 0px;
-    overflow: auto;
 }
 
 .quadro{
@@ -164,6 +166,10 @@ h5{
 
 img{
     height: 200px;
+}
+
+.arrotondato{
+    border-radius: 50%;
 }
 
 /* inizio footer */
@@ -195,8 +201,7 @@ footer{
     cursor: pointer;
 }
 .footer-left-text, .footer-left-icons{
-    display: flex;
-    align-items: center;
+    display: block;
     cursor: pointer;
 }
 
@@ -205,6 +210,10 @@ footer{
     float: left;
     width: 45%;
     padding: 18px;
+}
+
+.footer-left-icons{
+    margin-left: 20px;    
 }
 .commands-player {
     display: flex;
